@@ -1,0 +1,12 @@
+{
+  "name": "@commonmodule/image-combiner-cf",
+  "author": "yj.gaia",
+  "homepage": "https://personas.gaia.cc/yj.gaia",
+  "version": "0.0.3",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "@cf-wasm/resvg": "^0.1.24"
+  }
+}
