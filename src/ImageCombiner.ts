@@ -1,14 +1,6 @@
 import { Resvg } from "@cf-wasm/resvg";
-import { initWasm } from "@resvg/resvg-wasm";
-import fs from "fs";
 
 class ImageCombiner {
-  public async initWasm() {
-    await initWasm(
-      fs.readFileSync("./node_modules/@resvg/resvg-wasm/index_bg.wasm"),
-    );
-  }
-
   private arrayBufferToBase64(buffer: ArrayBuffer): string {
     let binary = "";
     const bytes = new Uint8Array(buffer);
